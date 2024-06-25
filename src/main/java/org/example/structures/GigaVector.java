@@ -26,7 +26,7 @@ public class GigaVector<T> {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < t.length(); i++) {
-            sb.append("SuperTensor ").append(i);
+            sb.append("Tensor Pool ").append(i);
             if (i == t.length() - 1) {
                 sb.append("]");
             } else {

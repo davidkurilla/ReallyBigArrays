@@ -12,6 +12,11 @@ public class Vector<T> {
         data = (T[]) new Object[init_length];
     }
 
+    @SuppressWarnings("unchecked")
+    public Vector(int length) {
+        data = (T[]) new Object[length];
+    }
+
     @SafeVarargs
     public Vector(T... data) {
         this.data = data;

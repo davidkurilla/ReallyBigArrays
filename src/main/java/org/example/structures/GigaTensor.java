@@ -24,7 +24,7 @@ public class GigaTensor<T> {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < t.length(); i++) {
-            sb.append("Layer ").append(i).append("\n");
+            sb.append("Tensor Cluster ").append(i).append("\n");
             sb.append(t.get(i));
             sb.append("\n");
         }
